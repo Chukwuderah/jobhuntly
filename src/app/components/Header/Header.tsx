@@ -3,7 +3,7 @@ import Menu from "/public/Menu.svg";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-4 md:px-[124px] h-[60px] md:h-[78px] w-full shadow shadow-[#D6DDEB]">
+    <header className="flex items-center justify-between px-4 md:px-[124px] h-[60px] md:h-[78px] bg-[#F8F8FD] w-full shadow shadow-[#D6DDEB]">
       <div className="flex items-center gap-12 w-[452px]">
         <Image src="/logo.png" alt="Logo" width={200} height={200} />
         <div className="hidden md:flex gap-4">
@@ -16,11 +16,27 @@ const Header = () => {
         </div>
       </div>
       <div className="hidden md:flex gap-4 w-[232px]">
-        <button type="button" className="py-3 px-6 rounded-sm w-[92px] h-[50px] text-[16px] text-[#4640DE] font-bold leading-[160%] Epilogue cursor-pointer" >Login</button>
+        <button
+          type="button"
+          className="py-3 px-6 rounded-sm w-[92px] h-[50px] text-[16px] text-[#4640DE] font-bold leading-[160%] Epilogue cursor-pointer"
+        >
+          Login
+        </button>
         {/* <span className="border border-[#D6DDEB] w-0.5 rotate-[90deg] bg-[#D6DDEB]"></span> */}
-        <button type="button" className="py-3 px-6 rounded-sm w-[108px] h-[50px] bg-[#4640DE] text-nowrap text-[16px] text-white font-bold leading-[160%] Epilogue cursor-pointer" >Sign Up</button>
+        <button
+          type="button"
+          className="py-3 px-6 rounded-sm w-[108px] h-[50px] bg-[#4640DE] text-nowrap text-[16px] text-white font-bold leading-[160%] Epilogue cursor-pointer"
+        >
+          Sign Up
+        </button>
       </div>
-      <Image src={Menu} alt="Menu" width={50} height={50} className="md:hidden" />
+      <Image
+        src={Menu}
+        alt="Menu"
+        width={50}
+        height={50}
+        className="md:hidden"
+      />
     </header>
   );
 };
