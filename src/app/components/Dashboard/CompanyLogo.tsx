@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const CompanyLogo = () => {
   return (
-    <div className="flex flex-col gap-8 w-full py-10 px-4 md:px-[124px] bg-white mb-10">
+    <div className="flex flex-col gap-8 w-full h-[317px] md:h-[200px] py-10 px-4 md:px-[124px] bg-white mb-10">
       <h2 className="Epilogue font-normal text-[#202430] text-lg leading-[160%]">
         Companies we helped grow
       </h2>
